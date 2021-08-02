@@ -18,7 +18,8 @@ def render_menu():
     print("")
     print(header("RVGL Cars Profiler"))
     print("1. csv -> yml")
-    print("2. Exit")
+    print("2. csv -> yaml")
+    print("3. Exit")
     print("")
 
 
@@ -36,14 +37,16 @@ def render_classes_menu():
 
 def eval_option(number):
     if number == 1:
-        profile()
+        profile("yml")
     elif number == 2:
+        profile("yaml")
+    elif number == 3:
         exit(0)
     else:
         print("Invalid option!")
 
 
-def profile():
+def profile(extension):
     while True:
         render_classes_menu()
         try:
@@ -58,10 +61,10 @@ def profile():
 
     class_name = CLASSES[clazz - 1]
     print("")
-    print("Profiling " + class_name + " class (csv -> yml)...")
+    print("Profiling " + class_name + " class (csv -> " + extension + ")...")
 
     with open("csv/" + class_name + ".csv", "r", encoding="utf-8-sig") as data:
-        file = open("yml/" + class_name + ".yml", "w")
+        file = open(extension + "/" + class_name + "." + extension, "w")
         file.write(class_name + ":\n")
 
         for raw_entry in data.readlines()[1:]:
@@ -92,7 +95,7 @@ def profile():
             file.write(line6)
             log("info", line6)
 
-        log("info", "Done. Closing " + class_name + ".yml...")
+        log("info", "Done. Closing " + class_name + "." + extension + "...")
         file.close()
 
 
