@@ -1,7 +1,7 @@
 advanced:
-  acp_l-13:
-    name: ACP L-13
-    slug: acp_l-13
+  apc_l-13:
+    name: APC L-13
+    slug: apc_l-13
     speed: 55
     acc: 1.98
     weight: 3.5
