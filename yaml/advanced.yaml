@@ -195,3 +195,10 @@ advanced:
     acc: 2.13
     weight: 1.8
     multiplier: 0.7
+  splat:
+    name: Splat
+    slug: splat
+    speed: 54.0
+    acc: 1.62
+    weight: 1.6
+    multiplier: 1.5
