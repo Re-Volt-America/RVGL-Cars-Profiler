@@ -1,7 +1,7 @@
 clockwork:
-  clockwork_ghibly:
-    name: Clockwork Ghibly
-    slug: clockwork_ghibly
+  clockwork_ghibli:
+    name: Clockwork Ghibli
+    slug: clockwork_ghibli
     speed:  52.9
     acc:  2.48
     weight:  1.25
