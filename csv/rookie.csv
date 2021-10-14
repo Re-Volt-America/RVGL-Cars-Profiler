@@ -1,31 +1,23 @@
-﻿name,speed,acc,weight,multiplier
-Phat Trucker,47.9,2.23,3.50,0.7
-Tesla,53.7,1.51,3.00,1.0
-Yella,50.8,1.59,2.50,1.0
-Phat Slug,51.0,1.4,2.50,1.6
-Bigvolt,52.6,2.36,2.30,0.8
-High Rod,48.8,2.17,1.90,0.7
-Angus 400,50.1,2.24,1.80,1.0
-Speeder,48.1,2.37,1.75,0.8
-Crazy Pat,49.0,2.30,1.70,1.0
-Harvester,48.0,2.31,1.70,0.9
-Vaanbus,53.4,1.81,1.70,1.2
-LR 64,53.7,1.55,1.70,0.7
-Volken Turbo,50.0,2.22,1.60,0.8
-Porumbarul,53.0,1.75,1.60,1.1
-Rebound 4x4,53.6,2.25,1.50,1.3
-Col Moss,53.0,2.16,1.50,0.8
-Sunset Light,48.4,2.35,1.50,1.0
-Hurricane,48.7,2.30,1.50,0.6
-Nesbitt,53.2,1.81,1.50,0.9
-Dr. Grudge,51.0,2.53,1.40,0.6
-Panorama,50.4,2.31,1.35,1.3
-Naranja Turbo,47.0,2.78,1.30,0.9
-Rc Bandit,52.0,2.08,1.20,0.6
-Bed Bug,52.1,1.98,1.20,0.9
-El Gekko,51.1,2.01,1.20,0.9
-Dust Mite,51.0,1.97,1.20,1.2
-Micro,50.7,2.32,1.10,1.1
-Kanberra Kruiser,50.6,2.39,1.00,0.6
-Sprinter XL,51.0,3.18,0.90,0.7
-Road Star,50.1,2.49,0.80,0.9
+name,speed,acc,weight,multiplier
+Phat Slug,50.3,1.41,2.5,1.6
+Bigvolt,52.6,2.35,2.3,0.8
+Harvester,47.7,2.32,1.7,0.9
+LR 64,53.7,1.54,1.7,0.8
+Volken Turbo,49.2,2.23,1.6,0.9
+Col. Moss,52.5,2.16,1.5,0.8
+Dr. Grudge,51.1,2.53,1.4,0.7
+Panorama,50.4,2.31,1.35,0.8
+Rc Bandit,51.5,2.08,1.2,0.7
+Dust Mite,50.2,1.98,1.2,1.2
+Sprinter XL,50.5,3.19,0.9,0.7
+Albatross GT,48.3,2.36,1.4,0.7
+Condor GRV,49.6,2.73,1.5,1
+Eggy Thump,46.8,2.39,1.5,0.7
+El Rapido,51,2.26,1.85,0.9
+Get Air,51.6,3.3,2.7,1.1
+Myrmech,48.8,2.68,1.5,0.7
+Perfect Shot,47,2.77,1.3,0.7
+Poison Ivy,51.8,2.32,1.2,0.7
+Strini,48.6,3.57,0.65,1.5
+Super Wheat,52,1.86,2.4,0.9
+Vikbird,50.4,2.6,1.55,0.7
