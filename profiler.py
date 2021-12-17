@@ -32,6 +32,7 @@ def render_classes_menu():
     print("5. Pro")
     print("6. Super-Pro")
     print("7. Clockwork")
+    print("8. All")
     print()
 
 
@@ -50,16 +51,24 @@ def profile(extension):
     while True:
         render_classes_menu()
         try:
-            clazz = int(input("Option number: "))
+            class_number = int(input("Option number: "))
 
-            if option < 1 or option > 7:
+            if class_number < 1 or class_number > 8:
                 continue
 
             break
         except:
             print("Invalid option!")
 
-    class_name = CLASSES[clazz - 1]
+    if class_number != 8:
+        class_name = CLASSES[class_number - 1]
+        profile_class(class_name, extension)
+    else:
+        for clazz in CLASSES:
+            profile_class(clazz, extension)
+
+
+def profile_class(class_name, extension):
     print("")
     print("Profiling " + class_name + " class (csv -> " + extension + ")...")
 
