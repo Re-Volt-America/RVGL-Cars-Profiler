@@ -1,5 +1,5 @@
 name,speed,acc,weight,multiplier
-Bossvolt,57,2.16,3.5,0.8
+Bossvolt,57,2.16,3.5,1
 Bertha Ballistics,56.6,2.23,3,0.8
 Sturm,52.3,2.68,2.4,1
 Groovster,55.2,1.66,2,1.1
@@ -11,8 +11,8 @@ Evil Weasel,58.1,1.95,1.4,1
 R6 Turbo,59.1,2.46,0.8,0.7
 Drawall,54,2.67,1.4,0.8
 Fiddler,60,2.46,1.5,0.9
-Flower Power,57.6,2.75,1.6,1.4
-Hammerhead,57.9,2.01,1.85,0.8
+Flower Power,57.6,2.75,1.6,1.1
+Hammerhead,57.9,2.01,1.85,0.7
 Junker,58.5,2.18,2.3,0.9
 Melon Crusher,60.1,1.95,2.72,0.7
 Micro Tashe,54.9,2.26,1.4,0.7
